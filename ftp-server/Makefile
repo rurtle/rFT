@@ -16,6 +16,6 @@ submit:
 	@echo "Created $(SUBMIT_FILENAME); please upload and submit this file."
 
 clean:
-	rm -f *.o
+	rm -f ftp-server *.o
 
 .PHONY: all clean
